@@ -96,4 +96,63 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+}
+
+
+
+.body__button {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.body__btn {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #603420;
+  background-color: #ffffff;
+  transition: all 0.8s ease;
+  color: #F18969;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  font-weight: 700px;
+}
+
+.body__btn:hover {
+  transform: scale(0.9);
+  background-color: #F18969;
+  color:#ffffff;
+}
+
+/*медиа запросы*/
+
+@media (max-width: 770px) {
+  .body__btn {
+  width: 200px;
+  height: 40px;
+}
+
+.body__button {
+    bottom: 20%;
+    }
+
+}
+
+@media (max-width: 770px) {
+  .body__btn {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.body__button {
+    bottom: 25%;
+} 
+
 }
