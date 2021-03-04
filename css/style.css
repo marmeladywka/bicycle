@@ -354,8 +354,8 @@ body{
   overflow: hidden;
   position: absolute;
   top: 50%;
-  left: 50%;  
-  transform: translate(-50%, -50%);
+  left: 20%;  
+  transform: translate(-20%, -50%);
   padding: 15px ;
   
 }
@@ -363,8 +363,8 @@ body{
 .navigation {
   position: absolute;
   bottom: 3px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 60%;
+  transform: translateX(-60%);
   display: flex;
 }
 
@@ -995,12 +995,17 @@ footer {
   .header__logo {
     display: none;
   }
+  
+  .mobile__image {
+    position: relative;
+}
 
   .mobile__icon {
     width: 15%;
     position: absolute;
-    top: 13%;
-    left: 30%;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 20%);
   }
 
   .header__all-mobile {
@@ -1018,35 +1023,29 @@ footer {
     margin: 30px auto;
   }
 
-  .mobile__image {
-    position: relative;
-    top: 13%;
-    left: 13%;
-  }
-
   .header__menu-mobile:first-child {
     padding-top: 20%;
   }
 
   .toggleMenu {
     display: block;
-    z-index: 3;
+    text-transform: uppercase;
+    color: #282f35;
+    font-weight: 700;
     position: fixed;
-    width: 100%;
-    height: 120px;
-    top: 0;
-    left: 0;
-    background-color: rgb(142, 135, 135, 0.2);
+    left: 40%;
+    top: 12%;
+    letter-spacing: 3.5px;
+    
     
   }
 
   .toggleMenu__span {
     display: block;
-    font-size: 100%;
     text-transform: uppercase;
-    letter-spacing: 1.4;
+    letter-spacing: 3.4px;
     color: #282f35;
-    font-weight: 700px;
+    font-weight: 700;
     position: fixed;
     top: 10%;
     left: 46%;
@@ -1126,19 +1125,36 @@ footer {
 .card__item-big {
   margin-bottom: 10px;
 }
+  
+/* slide */
+  
+.slider {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translate(-8%, -50%);
+  padding: 0px;
+  }
 
 .slide__title {
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 17px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .slide__text {
-    font-size: 16px;
+  font-size: 14px;
+  height: 350px;
+  padding: 0px 5px 0px 5px;
 }
 
 .section__slider {
-    height: 70%;
+    height: 100%;
+}
+  
+ .navigation {
+   bottom: 1px;
+   left: 55%;
 }
 
 /*foto*/
