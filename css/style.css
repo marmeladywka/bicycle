@@ -1009,9 +1009,9 @@ footer {
   .mobile__icon {
     width: 15%;
     position: absolute;
-    top: -20%;
+    top: -50%;
     left: 50%;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 50%);
   }
 
   .header__all-mobile {
