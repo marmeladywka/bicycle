@@ -350,7 +350,7 @@ body{
 
 .slider {
   max-width: 1336px;
-  max-height: 600px;
+  max-height: 700px;
   overflow: hidden;
   margin: 0 auto;
   padding-top: 20%;
@@ -358,10 +358,7 @@ body{
 }
 
 .navigation {
-  position: absolute;
-  bottom: 30%;
-  left: 50%;
-  transform: translateX(-60%);
+  justify-content: center;
   display: flex;
 }
 
