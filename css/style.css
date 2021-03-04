@@ -349,7 +349,7 @@ body{
 }
 
 .slider {
-  max-width: 1036px;
+  max-width: 1436px;
   max-height: 600px;
   overflow: hidden;
   position: absolute;
@@ -620,8 +620,20 @@ footer {
 /*медиа запросы*/
 
 @media (max-width: 1230px) {
+  
+/* slide */
+  .slider {
+    max-width: 1036px;
+    max-height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-5%, -50%);
+    padding: 15px;
+}
 
-  /*info*/
+ /*info*/
 
   .info {
     padding-top: 85px;
